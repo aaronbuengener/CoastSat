@@ -435,7 +435,7 @@ def get_filepath(inputs,satname):
         fp_swir = os.path.join(filepath_data, sitename, satname, 'swir')
         fp_mask = os.path.join(filepath_data, sitename, satname, 'mask')
         filepath = [fp_ms, fp_swir, fp_mask]
-            
+    print(filepath)        
     return filepath
     
 def get_filenames(filename, filepath, satname):
