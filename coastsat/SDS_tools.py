@@ -429,7 +429,7 @@ def get_filepath(inputs,satname):
         fp_pan = os.path.join(filepath_data, sitename, satname, 'pan')
         fp_mask = os.path.join(filepath_data, sitename, satname, 'mask')
         filepath = [fp_ms, fp_pan, fp_mask]
-    elif satname == 'S2':
+    else:
         # access downloaded Sentinel 2 images
         fp_ms = os.path.join(filepath_data, sitename, satname, 'ms')
         fp_swir = os.path.join(filepath_data, sitename, satname, 'swir')
