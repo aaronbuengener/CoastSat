@@ -101,6 +101,7 @@ def extract_shorelines(metadata, settings):
 
     default_min_length_sl = settings['min_length_sl']
     # loop through satellite list
+    print(metadata.keys())
     for satname in metadata.keys():
 
         # get images
