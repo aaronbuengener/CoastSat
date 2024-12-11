@@ -363,7 +363,7 @@ def create_folder_structure(im_folder, satname):
         filepaths.append(os.path.join(im_folder, satname, 'ms'))
         filepaths.append(os.path.join(im_folder, satname, 'pan'))
         filepaths.append(os.path.join(im_folder, satname, 'mask'))
-    elif satname in ['S2']:
+    else:
         filepaths.append(os.path.join(im_folder, satname, 'ms'))
         filepaths.append(os.path.join(im_folder, satname, 'swir'))
         filepaths.append(os.path.join(im_folder, satname, 'mask'))
