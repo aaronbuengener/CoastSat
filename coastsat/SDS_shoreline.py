@@ -106,6 +106,7 @@ def extract_shorelines(metadata, settings):
 
         # get images
         filepath = SDS_tools.get_filepath(settings['inputs'],satname)
+        print(filepath)
         filenames = metadata[satname]['filenames']
 
         # initialise the output variables
